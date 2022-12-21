@@ -69,6 +69,25 @@ display: none;
   width: 100%;
 }
 
+/*about*/
+.about {
+ margin: 50px auto;
+ text-align: center;
+}
+
+.about > h1 {
+ padding-bottom: 50px;
+}
+
+.about > img{
+  display: inherit;
+ margin: 0 auto;
+}
+
+.about h3 {
+  padding: 30px 30px;
+}
+
 /*cast*/
 
 .cast_wraps {
@@ -163,18 +182,7 @@ display: none;
 
 
 
-
-
-/*media max-width:990px*/
-
-@media(max-width:1000px) {
-  .castbox {
-
-
-
-  }
-}
-
+/*media max-width:800px*/
 
 @media(max-width:800px){
 
@@ -185,25 +193,19 @@ display: none;
   .ham_menu {
     display: block;
     position: relative;
-
-
   }
 
   .mobile_menu {
-    display: none;
-    background-color: white;
+  display: none;
+  background-color: white;
   z-index: 3;
   position: absolute;
   top:62px;
   left:20px;
-
   height:auto;
   padding: 20px;
   }
 
-  .mobile_menu > ul {
-
-  }
 
   .mobile_menu > ul > li {
     padding: 10px;
