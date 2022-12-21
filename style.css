@@ -227,5 +227,9 @@ display: none;
     overflow:hidden;
   }
 
+  .about > img {
+    width: 85%;
+  }
+
 
 }
